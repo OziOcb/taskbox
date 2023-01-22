@@ -5,6 +5,7 @@
       :aria-label="'archiveTask-' + task.id"
       class="checkbox"
     >
+      elo
       <input
         type="checkbox"
         :checked="isChecked"
