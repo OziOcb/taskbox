@@ -5,7 +5,6 @@
       :aria-label="'archiveTask-' + task.id"
       class="checkbox"
     >
-      elo
       <input
         type="checkbox"
         :checked="isChecked"
@@ -23,6 +22,8 @@
         :id="'title-' + task.id"
         name="title"
         placeholder="Input title"
+        style="background: red"
+      />
       />
     </label>
     <button
